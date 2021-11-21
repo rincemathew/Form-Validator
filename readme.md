@@ -1,1 +1,1 @@
-![alt text](https://github.com/rincemathew/Aufait-Test/blob/master/form.png?raw=true)
+![alt text](https://github.com/rincemathew/Form-Validator/blob/master/form.png?raw=true)
