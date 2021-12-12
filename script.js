@@ -23,16 +23,16 @@ function isValidEmail(email){
 }
 
 function checkRequired(inputArr){
-    inputArr.forEach(element => {
-        if (element.value.trim() === ''){
-            showError(element, `${getFieldName(element)} is required`);
+    inputArr.forEach(input => {
+        if (input.value.trim() === ''){
+            showError(input, `${getFieldName(input)} is required`);
         } else {
-            showSuccess(element);
+            showSuccess(input);
         }
     });
 }
 
-function getFieldName(element){
+function getFieldName(input){
     return input.id.charAt(0).toUpperCase() + input.id.slice(1);
 }
 
